@@ -1,0 +1,15 @@
+# Optional deployment configuration for Streamlit in Snowflake-like environments
+project:
+  name: ares-agentic-earnings-war-room
+  runtime: python3.11
+
+app:
+  entrypoint: streamlit/app.py
+  title: ARES – Agentic Earnings War Room
+  description: Agentic finance intelligence UI for earnings preparation
+
+packages:
+  - streamlit
+  - pandas
+  - numpy
+  - openpyxl
